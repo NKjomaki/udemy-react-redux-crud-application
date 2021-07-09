@@ -1,11 +1,10 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Hello, World</h1>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react';
+
+class App extends Component {
+  render() {
+    const dom = <h1>Hi!</h1>;
+    return dom;
+  } 
 }
 
 export default App;
